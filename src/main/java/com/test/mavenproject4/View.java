@@ -142,6 +142,8 @@ public class View extends javax.swing.JFrame {
                     
                     int index = 0;
                     
+                    //test
+                    
                     for(Encomiendas encomienda : encomiendas){
                         
                         jTable1.getModel().setValueAt(encomienda.getId(), index, 0);
